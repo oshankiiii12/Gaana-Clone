@@ -1,0 +1,588 @@
+body{
+    font-family:calibri;
+    padding:0;
+    margin:0;
+}
+#topHeader{
+    background-color: white;
+    height:45px;
+    top:0;
+    right:0;
+    left:0;
+    padding-top:0;
+    padding-bottom:10px;
+    position:fixed;
+    border-bottom:1px solid rgb(218,218,218);
+    margin-top:0px;
+    z-index:1;
+}
+#topHeader:hover{
+    cursor:default;
+}
+#imgLogo{
+    margin-left: 40px;
+    margin-top:10px;
+    display:inline-block;
+    position:static;
+
+}
+#topList{
+    list-style: none;
+    display:inline-block;
+    padding:5px;
+    margin-left:10px;
+    margin-top:0;
+    height:27px;
+    margin-bottom:0px;
+}
+#topList li a:hover{
+    color:red;
+}
+#ulDiv{
+    display:inline-block;
+
+}
+#topList li div a{
+    color:red;
+}
+#topList li{
+    display:inline-block;
+    position: relative;
+}
+#topList li a{
+    color:rgb(166,166,166);
+    text-decoration: none;
+    display:inline-block;
+    font-size:large;
+    margin-left: 10px;
+}
+#ggp{
+    display:inline-block;
+    color:red;
+    border-radius:50px;
+    border:1px solid red;
+    padding:5px 15px 5px 15px;
+    margin-left:90px;
+}
+#ggp:hover{
+    color:white;
+    background-color: red;
+    cursor:hand;
+}
+#daa{
+    display:inline-block;
+    margin-left:20px;
+}
+#da{
+    display:inline-block;
+    color:rgb(166,166,166);
+}
+#da:hover{
+    cursor: default;
+}
+#daa:hover{
+    cursor:default;
+}
+#daa img:hover{
+    background-color:black;
+    cursor:hand;
+}
+#dm_cl{
+    display:inline-block;
+    margin-left:20px;
+    border-left:1px solid rgb(166,166,166);
+    height:100%;
+    padding-left:20px;
+}
+#appleLogo{
+    display:inline-block;
+    margin-left:10px;
+}
+#androidLogo{
+    display:inline-block;
+    margin-left:10px
+}
+#darkMode{
+    display:inline-block;
+    opacity:0.5;
+    position: absolute;
+    margin-top: 9px;
+    cursor:hand;
+}
+#changeLanguage{
+    margin-left:29px;
+    cursor:hand;
+}
+#si{
+    display:inline-block;
+    color:red;
+    float:right;
+    margin-top: 17px;
+    margin-right: 20px;
+    font-size: large;
+}
+#si:hover{
+    cursor:hand;
+}
+#sideQueue{
+    width:70px;
+    position:fixed;
+    margin-top:55px;
+    background-color: rgb(238,239,241);
+    height:100%;
+    float:left;
+    z-index:1;
+    box-shadow:0px 0px 5px 0px rgb(166,166,166);
+    cursor:default;
+}
+#queueTop{
+    background-color: rgb(239,239,239);
+    height:20px;
+    padding:10px;
+    color:rgb(166,166,166);
+}
+#s1{
+    background-color: rgb(223,229,225);
+    height:40px;
+    padding:14px;
+    cursor:hand;
+}
+#s2{
+    background-color: rgb(238,239,241);
+    height:40px;
+    cursor:hand;
+    padding:14px;
+}
+#s3{
+    background-color: rgb(238,239,241);
+    height:40px;
+    cursor:hand;
+    padding:14px;
+}
+#currentSong{
+    position:fixed;
+    margin-bottom:0;
+    width:100%;
+    height:58px;
+    margin-left:0;
+    margin-right:0;
+    padding:0px;
+    background-color:white;
+    bottom:0;
+    box-shadow:0px 0px 5px 0px rgb(166,166,166);
+    z-index:1;
+    cursor:default;
+}
+#currentImg{
+    float:left;
+    cursor:hand;
+}
+#songName{
+    margin-left:10px;
+    display:inline-block;
+    padding:0;
+}
+#boss1{
+    color:black;
+    width:30px;
+    top: 0px;
+    left: 57px;
+    font-size:15px;
+    position: absolute;
+}
+#boss2{
+    color:rgb(166,166,166);
+    width:30px;
+    cursor:hand;
+    top:14px;
+    position:absolute;
+    font-size:15px;
+}
+#favourite{
+    display:inline-block;
+    margin-left:235px;
+    padding-top:2px;
+}
+#heartImg{
+    margin-bottom:3px;
+    cursor:hand;
+}
+#favouriteButton{
+    border:none;
+    background-color:white;
+}
+#menu{
+    display:inline-block;
+}
+#menuImg{
+    margin-bottom:8px;
+}
+#sian{
+    border-right:1px solid rgb(219,219,219);
+    float:left;
+    padding:12px;
+}
+#blDiv{
+    display:inline-block;
+    width:1017px;
+    border-top:3px solid rgb(229,228,226);
+    position: absolute;
+}
+#ppn{
+    display:inline-block;
+    margin-top:0;
+    top:0;
+    padding-bottom:0px;
+    margin-top:12px;
+    height:80%;
+    position:absolute;
+}
+#previousSong{
+    display:inline-block;
+    margin-left:15px;
+    margin-bottom:5px;
+    cursor:hand;
+}
+#previousImg{
+    margin-bottom:5px;
+}
+#pauseSong{
+    display:inline-block;
+    margin-left:5px;
+    margin-top:0px;
+    margin-bottom:10px;
+    cursor:hand;
+}
+#nextSong{
+    display:inline-block;
+    margin-left:5px;
+    cursor:hand;
+}
+#nextImg{
+    margin-bottom:5px;
+}
+#timeSong{
+    display:inline-block;
+    position: absolute;
+    font-family:Verdana;
+    margin-left:140px;
+    font-size:13px;
+}
+#ssr{
+    display:inline-block;
+    margin-left:250px;
+    position:absolute;
+    margin-top:15px;
+}
+#ssr img{
+    display:inline-block;
+    margin-left:15px;
+    cursor:hand;
+}
+#soundQuality{
+    display:inline-block;
+    margin-left:400px;
+    border-left:1px solid rgb(217,217,217);
+    border-right:1px solid rgb(217,217,217);
+    height:45px;
+    width:100px;
+    margin-top:5px;
+}
+#soundQuality button{
+    border:1px solid rgb(166,166,166);
+    background-color:white;
+    border-radius:50px;
+    color:rgb(166,166,166);
+    height:20px;
+    padding-left:12px;
+    font-size:12px;
+    padding-right:12px;
+    position: absolute;
+    bottom:20px;
+    margin-left:20px;
+    cursor:hand;
+}
+#soundQuality button img{
+    margin-top:2px;
+}
+#soundQuality button:hover{
+    color:rgb(138, 138, 138);
+    border:1px solid rgb(138, 138, 138);
+}
+#autoplay{
+    display:inline-block;
+    position: absolute;
+    margin-top:15px;
+    margin-left:20px;
+    font-size:15px;
+    
+}
+#autoplay label{
+    color:rgb(166,166,166);
+}
+#autoplay button{
+    border:1px solid rgb(166,166,166);
+    background-color:white;
+    border-radius:50px;
+    color:rgb(166,166,166);
+    height:20px;
+    padding-left:12px;
+    padding-right:12px;
+    margin-left:10px;
+}
+#autoplay button:hover{
+    color:rgb(119, 119, 119);
+    border:1px solid rgb(119, 119, 119);
+}
+#searchBar{
+    margin-top: 70px;
+    margin-left:100px;
+    display:inline-block;
+}
+#searchBar input{
+    border:none;
+    border-radius: 50px;
+    background-color: rgb(239,239,239);
+    width:450px;
+    height:35px;
+    font-size: 15px;
+    padding:20px;
+    position: absolute;
+}
+#searchBar button{
+    border:none;
+    border-radius:50px;
+    background-color:rgb(230,44,47);
+    color:white;
+    height:40px;
+    position: absolute;
+    margin-left:400px;
+    width:150px;
+    cursor:hand;
+}
+#searchBar button img{
+    margin-top:7px;
+    float:left;
+    margin-left:25px;
+}
+#searchBar button p{
+    display:inline-block;
+    margin-top:10px;
+    float:right;
+    margin-right:35px;
+}
+#trendingTop{
+    display:inline-block;
+    margin-left:600px;
+    border:none;
+    border-radius:50px;
+    background-color:rgb(239,239,239);
+    color:red;
+    position: absolute;
+    margin-top:78px;
+    height:15px;
+    padding:10px;
+    padding-top:5px;
+    cursor:hand;
+}
+#songLists{
+    background-color:rgb(239,239,239);
+    width:1750px;
+    padding-bottom:70px;
+    cursor:default;
+}
+#topPicks{
+    background-color:rgb(239,239,239);
+    margin-left:0px;
+    margin-top:55px;
+    padding-left:80px;
+    height:300px;
+    padding-top:2px;
+    width:1650px;
+}
+#topPicks h3{
+    margin-left:50px;
+    color:rgb(53,47,51);
+    font-weight:550;
+}
+#topPicks img{
+    display:inline-block;
+    position:absolute;
+    border-radius: 5px;
+    cursor:hand;
+}
+#a1{
+    margin-left:50px;
+}
+#a2{
+    margin-left:360px;
+}
+#a3{
+    margin-left:670px;
+}
+#a4{
+    margin-left:980px;
+}
+#a5{
+    margin-left:1290px;
+}
+#recentlyPlayed{
+    background-color:rgb(239,239,239);
+    margin-left:0px;
+    margin-top:0px;
+    padding-left:80px;
+    height:300px;
+    padding-top:2px;
+    width:1650px;
+}
+#recentlyPlayed h3{
+    margin-left:50px;
+    color:rgb(53,47,51);
+    font-weight:550;
+}
+#recentlyPlayed img{
+    display:inline-block;
+    position: absolute;
+    cursor:hand;
+    border-radius:5px;
+}
+#r1{
+    margin-left:50px;
+}
+#r2{
+    margin-left:240px;
+}
+#r3{
+    margin-left:430px;
+}
+#recentlyPlayed p{
+    display:inline-block;
+    position: absolute;
+    margin-top:160px;
+}
+#rb{
+    margin-left:50px;
+}
+#rv{
+    margin-left:240px;
+}
+#rl{
+    margin-left:430px;
+}
+.trendingBorder{
+    width:905px;
+    height:0px;
+    margin-left:130px;
+    border:1px solid rgb(204,204,204);
+}
+#trendingSongs{
+    background-color:rgb(239,239,239);
+    margin-left:0px;
+    margin-top:0px;
+    padding-left:80px;
+    height:300px;
+    padding-top:2px;
+    width:1650px;
+}
+#trendingSongs h3{
+    margin-left:50px;
+    color:rgb(53,47,51);
+    font-weight:550;
+    display:inline-block;
+}
+#trendingSongs h5{
+    margin-left:690px;
+    color:red;
+    font-weight:800;
+    display:inline-block;
+    font-size:18px;
+}
+#trendingSongs img{
+    display:inline-block;
+    border-radius:5px;
+    position:absolute;
+    cursor:hand;
+}
+#b1{
+    margin-left:50px;
+}
+#b2{
+    margin-left:240px;
+}
+#b3{
+    margin-left:430px;
+}
+#b4{
+    margin-left:620px;
+}
+#b5{
+    margin-left:810px;
+}
+#trendingSongs p{
+    display:inline-block;
+    margin-top:150px;
+}
+#pb1{
+    margin-left:49px;
+}
+#pb2{
+    margin-left:136px;
+}
+#pb3{
+    margin-left:92px;
+}
+#pb4{
+    margin-left:107px;
+}
+#pb5{
+    margin-left:86px;
+}
+#topCharts{
+    background-color:rgb(239,239,239);
+    margin-left:0px;
+    margin-top:0px;
+    padding-left:130px;
+    height:300px;
+    padding-top:10px;
+    width:1600px;
+}
+#topCharts h3{
+    color:rgb(53,47,51);
+    font-weight:550;
+    display:inline-block;
+}
+#topCharts h5{
+    margin-left:730px;
+    color:red;
+    font-weight:800;
+    display:inline-block;
+    font-size:18px;
+    top:0;
+}
+#topCharts img{
+    margin-left:35px;
+    border-radius:5px;
+    cursor:hand;
+}
+#topCharts img:first-of-type{
+    display:inline-block;
+    margin-left:0px;
+}
+#topCharts p{
+    display:inline-block;
+}
+#pc1{
+    margin-left:0;
+}
+#pc2{
+    margin-left:103px;
+}
+#pc3{
+    margin-left:90px;
+}
+#pc4{
+    margin-left:55px;
+}
+#pc5{
+    margin-left:47px;
+}
